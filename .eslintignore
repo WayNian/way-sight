@@ -1,0 +1,6 @@
+.cache/
+.temp/
+node_modules/
+lib/
+dist/
+assets/
