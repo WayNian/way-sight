@@ -4,7 +4,7 @@ import { createPinia } from "pinia";
 import App from "./App.vue";
 import router from "./router";
 
-import "./assets/reset.css";
+import "virtual:windi.css";
 import { setupUI } from "./utils/setupUI";
 
 const app = createApp(App);
