@@ -1,6 +1,6 @@
 {
   "name": "way-sight",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "prepare": "husky install",
     "dev": "vite",
@@ -11,7 +11,8 @@
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
     "lint:fix": "npm run lint -- --fix",
     "prettier": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\"",
-    "prettier:fix": "npm run prettier -- --write"
+    "prettier:fix": "npm run prettier -- --write",
+    "release:changelog": "standard-version"
   },
   "dependencies": {
     "pinia": "^2.0.23",
@@ -33,6 +34,7 @@
     "husky": "^8.0.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
+    "standard-version": "^9.5.0",
     "typescript": "~4.7.4",
     "vite": "^3.1.8",
     "vite-plugin-eslint": "^1.8.1",
